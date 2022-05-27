@@ -14,10 +14,10 @@ const AboutMe = () => {
             </p>
           </div>
           <div>
-            <ul class="steps steps-vertical">
-              <li class="step step-primary">SSC in Science (A.K institution,Daihary)</li>
-              <li class="step step-primary">Dimlopa in computer (Bhola Politechnic Institute)</li>
-              <li class="step step-primary">BSC in CSE (DIU)</li>
+            <ul className="steps steps-vertical">
+              <li className="step step-primary">SSC in Science (A.K institution,Daihary)</li>
+              <li className="step step-primary">Dimlopa in computer (Bhola Politechnic Institute)</li>
+              <li className="step step-primary">BSC in CSE (DIU)</li>
             </ul>
           </div>
         </div>

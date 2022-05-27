@@ -5,9 +5,7 @@ const WhyHire = () => {
     <div id="hire">
       <div className="container mx-auto my-20">
         <div className="mb-10">
-          <h1 className="text-4xl text-primary font-bold">
-            My work summery
-          </h1>
+          <h1 className="text-4xl text-primary font-bold">My work summery</h1>
         </div>
         <div className="container mx-auto ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-3/4 mx-auto gap-4">
@@ -65,6 +63,54 @@ const WhyHire = () => {
               <h1 className=" my-2 text-5xl font-bold ">36+</h1>
               <p className="text-2xl">Projects</p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-10 my-20">
+        <h1 className="text-4xl text-primary font-bold mb-8">My skill</h1>
+        <div>
+          <ul class="steps steps-vertical lg:steps-horizontal">
+            <li data-content="✓" class="step step-primary px-10">
+              Html5
+            </li>
+            <li data-content="✓" class="step step-primary">
+              Css3
+            </li>
+            <li data-content="✓" class="step step-primary">
+              Java script
+            </li>
+            <li data-content="✓" class="step step-primary">
+              React.js
+            </li>
+            <li data-content="✓" class="step step-primary">
+              Node.js
+            </li>
+            <li data-content="✓" class="step step-primary">
+              Express.js
+            </li>
+            <li data-content="✓" class="step step-primary">
+              Mongodb
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h1 className="text-4xl text-primary font-bold mb-8">My Project</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div>
+            <ul class="steps steps-vertical">
+              <li class="step step-primary"><a href="https://conceptua-1.web.app/" target="_blank" rel="noopener noreferrer">E-book.com</a></li>
+              <li class="step step-primary"><a href="https://steady-tiramisu-365cbb.netlify.app" target="_blank" rel="noopener noreferrer">Beauti of bandarban</a></li>
+              <li class="step"><a href="live link: https://assignment-12-14077.web.app" target="_blank" rel="noopener noreferrer">Full stack web side</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="steps steps-vertical">
+              <li class="step step-primary"><a href="https://pallobbiwas.github.io/money-hunter/" target="_blank" rel="noopener noreferrer">Money-hunter</a></li>
+              <li class="step step-primary"><a href="https://pallobbiwas.github.io/The-meal-bd/" target="_blank" rel="noopener noreferrer">Mealdb</a></li>
+              <li class="step"><a href="https://pallobbiwas.github.io/siple-invoice/" target="_blank" rel="noopener noreferrer">Silmple invoice</a></li>
+              <li class="step"><a href="https://pallobbiwas.github.io/mac-pc-configaration/" target="_blank" rel="noopener noreferrer">Mac pc config.</a></li>
+            </ul>
           </div>
         </div>
       </div>
