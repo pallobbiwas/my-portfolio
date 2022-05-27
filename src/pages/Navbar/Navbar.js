@@ -1,11 +1,11 @@
 import React from "react";
-import logoImg from '../../assets/pallab 5PORT SIZE w.jpg';
+import logoImg from "../../assets/pallab 5PORT SIZE w.jpg";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({children}) => {
   return (
     <div>
-      <div class="drawer">
+      <div class="drawer drawer-end ">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col">
           <div class="w-full navbar bg-gray-600">
@@ -50,10 +50,15 @@ const Navbar = () => {
                     Contuct
                   </a>
                 </li>
+                <li class="nav-iteam">
+                  <a class="nav-link" href="#hire">
+                    Why hire
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-          {/* Content */}
+          {children}
         </div>
         <div class="drawer-side">
           <label for="my-drawer-3" class="drawer-overlay"></label>
@@ -71,6 +76,11 @@ const Navbar = () => {
             <li class="nav-iteam">
               <a class="nav-link" href="#contuct">
                 Contuct
+              </a>
+            </li>
+            <li class="nav-iteam">
+              <a class="nav-link" href="#hire">
+                Why hire
               </a>
             </li>
           </ul>
