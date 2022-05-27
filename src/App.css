@@ -3,6 +3,9 @@
   background-color: rgb(15 23 41);
   min-height: 100vh;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .App-logo {
   height: 40vmin;

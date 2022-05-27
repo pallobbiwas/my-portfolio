@@ -1,3 +1,108 @@
 .banner-img {
   width: 271px;
 }
+.title {
+  font-size: 60px;
+  white-space: nowrap;
+  position: relative;
+  color: transparent;
+}
+.title::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  color: tomato;
+  animation: myanimation 8s linear infinite alternate;
+}
+@keyframes myanimation {
+  0% {
+    content: "P|";
+  }
+
+  4% {
+    content: "Pa|";
+  }
+
+  8% {
+    content: "Pall|";
+  }
+
+  12% {
+    content: "Pallob|";
+  }
+
+  16% {
+    content: "Pallob |";
+  }
+
+  20% {
+    content: "Pallob B|";
+  }
+
+  24% {
+    content: "Pallob Bi|";
+  }
+
+  28% {
+    content: "Pallob Bis|";
+  }
+
+  32% {
+    content: "Pallob Bisw|";
+  }
+
+  36% {
+    content: "Pallob Biswa|";
+  }
+
+  40% {
+    content: "Pallob Biswas|";
+  }
+
+  44% {
+    content: "Pallob Biswa|";
+  }
+
+  48% {
+    content: "Pallob Bisw|";
+  }
+
+  52% {
+    content: "Pallob Bis|";
+  }
+
+  56% {
+    content: "Pallob Bi|";
+  }
+
+  60% {
+    content: "Pallob B|";
+  }
+  61% {
+    content: "Pallob |";
+  }
+  62% {
+    content: "Pallob|";
+  }
+  63% {
+    content: "Pallo|";
+  }
+
+  66%,
+  83% {
+    content: "Pall|";
+  }
+
+  84% {
+    content: "Pal|";
+  }
+
+  85% {
+    content: "Pa|";
+  }
+
+  86% {
+    content: "P|";
+  }
+}

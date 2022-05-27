@@ -2,9 +2,9 @@ import React from "react";
 import logoImg from "../../assets/pallab 5PORT SIZE w.jpg";
 import "./Navbar.css";
 
-const Navbar = ({children}) => {
+const Navbar = ({ children }) => {
   return (
-    <div>
+    <div className="">
       <div class="drawer drawer-end ">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content flex flex-col">
@@ -50,11 +50,6 @@ const Navbar = ({children}) => {
                     Contuct
                   </a>
                 </li>
-                <li class="nav-iteam">
-                  <a class="nav-link" href="#hire">
-                    Why hire
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -76,11 +71,6 @@ const Navbar = ({children}) => {
             <li class="nav-iteam">
               <a class="nav-link" href="#contuct">
                 Contuct
-              </a>
-            </li>
-            <li class="nav-iteam">
-              <a class="nav-link" href="#hire">
-                Why hire
               </a>
             </li>
           </ul>
