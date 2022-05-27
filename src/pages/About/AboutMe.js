@@ -10,13 +10,20 @@ const AboutMe = () => {
           <div className="mt-10">
             <p>
               Hello. I am pallob biswas. My home town is Barishal, pirojpur. Now
-              i livs in dhaka, panthopath. I am MERN stack web developer. I complete my graduation at <span>computer science and engineering</span> from Dhaka international university.
+              i livs in dhaka, panthopath. I am MERN stack web developer. I
+              complete my graduation at{" "}
+              <span>computer science and engineering</span> from Dhaka
+              international university.
             </p>
           </div>
           <div>
             <ul className="steps steps-vertical">
-              <li className="step step-primary">SSC in Science (A.K institution,Daihary)</li>
-              <li className="step step-primary">Dimlopa in computer (Bhola Politechnic Institute)</li>
+              <li className="step step-primary">
+                SSC in Science (A.K institution,Daihary)
+              </li>
+              <li className="step step-primary">
+                Dimlopa in computer (Bhola Politechnic Institute)
+              </li>
               <li className="step step-primary">BSC in CSE (DIU)</li>
             </ul>
           </div>

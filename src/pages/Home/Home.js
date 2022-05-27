@@ -6,7 +6,12 @@ import "./Home.css";
 const Home = () => {
   return (
     <div id="home" className="mt-32">
-      <div className="bg-gray-700 mt-32 mb-20">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        className="bg-gray-700 mt-32 mb-20"
+      >
         <div className="hero container mx-auto md:h-96">
           <div className="hero-content flex-col lg:flex-row">
             <div className="md:w-2/5">
