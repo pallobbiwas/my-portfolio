@@ -1,29 +1,80 @@
-import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import logoImg from '../../assets/pallab 5PORT SIZE w.jpg';
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div class="drawer">
-      <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-      <div class="drawer-content text-left fixed top-0">
-        <label for="my-drawer-4" class=" drawer-button btn btn-primary">
-          <p>
-            <FontAwesomeIcon className="text-4xl" icon={faCircleArrowRight}></FontAwesomeIcon>
-          </p>
-        </label>
-      </div>
-      <div class="drawer-side mt-16 rounded-lg ">
-        <label for="my-drawer-4" class="drawer-overlay"></label>
-        <ul class="menu p-4 overflow-y-auto w-80 bg-gray-900 text-white ">
-          <li>
-           <a href="#home">Home</a>
-           <a href="#about">About me</a>
-           <a href="#hire">Why hire me</a>
-           <a href="#contuct">Contuct me</a>
-          </li>
-        </ul>
+    <div>
+      <div class="drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content flex flex-col">
+          <div class="w-full navbar bg-gray-600">
+            <div class="flex-1 px-2 mx-2">
+              <div>
+                <img className="nav-img" src={logoImg} alt="" />
+              </div>
+              <h1 className="text-2xl ml-3 tracking-wider">Pallob's info</h1>
+            </div>
+            <div class="flex-none lg:hidden">
+              <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block w-6 h-6 stroke-current"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </label>
+            </div>
+
+            <div class="flex-none hidden lg:block">
+              <ul class="nav-menu">
+                <li class="nav-iteam">
+                  <a class="nav-link" href="#home">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-iteam">
+                  <a class="nav-link" href="#about">
+                    About
+                  </a>
+                </li>
+                <li class="nav-iteam">
+                  <a class="nav-link" href="#contuct">
+                    Contuct
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* Content */}
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer-3" class="drawer-overlay"></label>
+          <ul class="menu p-4 overflow-y-auto w-80 bg-gray-600 ">
+            <li class="nav-iteam">
+              <a class="nav-link" href="#home">
+                Home
+              </a>
+            </li>
+            <li class="nav-iteam">
+              <a class="nav-link" href="#about">
+                About
+              </a>
+            </li>
+            <li class="nav-iteam">
+              <a class="nav-link" href="#contuct">
+                Contuct
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
