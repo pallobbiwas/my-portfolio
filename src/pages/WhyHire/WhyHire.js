@@ -1,4 +1,7 @@
 import React from "react";
+import project1 from "../../assets/project1.png";
+import project2 from "../../assets/project2.png";
+import project3 from "../../assets/project3.png";
 
 const WhyHire = () => {
   return (
@@ -95,22 +98,27 @@ const WhyHire = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl text-primary font-bold mb-8">My Project</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div>
-            <ul class="steps steps-vertical">
-              <li class="step step-primary"><a href="https://conceptua-1.web.app/" target="_blank" rel="noopener noreferrer">E-book.com</a></li>
-              <li class="step step-primary"><a href="https://steady-tiramisu-365cbb.netlify.app" target="_blank" rel="noopener noreferrer">Beauti of bandarban</a></li>
-              <li class="step"><a href="live link: https://assignment-12-14077.web.app" target="_blank" rel="noopener noreferrer">Full stack web side</a></li>
-            </ul>
+        <div className=" container mx-auto my-20">
+          <div className="my-4 mb-10 mx-20">
+            <h1 className="text-4xl text-primary font-bold mb-8">My Project</h1>
+            <hr />
           </div>
-          <div>
-            <ul class="steps steps-vertical">
-              <li class="step step-primary"><a href="https://pallobbiwas.github.io/money-hunter/" target="_blank" rel="noopener noreferrer">Money-hunter</a></li>
-              <li class="step step-primary"><a href="https://pallobbiwas.github.io/The-meal-bd/" target="_blank" rel="noopener noreferrer">Mealdb</a></li>
-              <li class="step"><a href="https://pallobbiwas.github.io/siple-invoice/" target="_blank" rel="noopener noreferrer">Silmple invoice</a></li>
-              <li class="step"><a href="https://pallobbiwas.github.io/mac-pc-configaration/" target="_blank" rel="noopener noreferrer">Mac pc config.</a></li>
-            </ul>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+              <div className="overflow-y-auto h-96 rounded-md">
+                <img src={project1} alt="" />
+              </div>
+            </div>
+            <div>
+              <div className="overflow-y-auto h-96 rounded-md">
+                <img src={project2} alt="" />
+              </div>
+            </div>
+            <div>
+              <div className="overflow-y-auto h-96 rounded-md">
+                <img src={project3} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

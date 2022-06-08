@@ -22,10 +22,12 @@ const Home = () => {
               />
             </div>
             <div className="md:w-3/5 md:text-left bottom-20 relative">
-              <h1 className="title" data-text="Pallob Biswas...">
-                Pallob Biswas
-              </h1>
-              <h2 className="text-2xl">Fornt End Web Developer</h2>
+              <h1 className="text-6xl">Pallob Biswas</h1>
+
+              <h2 className="text-2xl">
+                i am{" "}
+                <span className="title ml-2" data-text=" Web Developer"></span>
+              </h2>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut

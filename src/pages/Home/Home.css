@@ -2,7 +2,6 @@
   width: 271px;
 }
 .title {
-  font-size: 60px;
   white-space: nowrap;
   position: relative;
   color: transparent;
@@ -17,92 +16,91 @@
 }
 @keyframes myanimation {
   0% {
-    content: "P|";
+    content: "W|";
   }
 
   4% {
-    content: "Pa|";
+    content: "We|";
   }
 
   8% {
-    content: "Pall|";
+    content: "Web|";
   }
 
   12% {
-    content: "Pallob|";
+    content: "Web D|";
   }
 
   16% {
-    content: "Pallob |";
+    content: "Web De|";
   }
 
   20% {
-    content: "Pallob B|";
+    content: "Web Dev|";
   }
 
   24% {
-    content: "Pallob Bi|";
+    content: "Web Deve|";
   }
 
   28% {
-    content: "Pallob Bis|";
+    content: "Web Devel|";
   }
 
   32% {
-    content: "Pallob Bisw|";
+    content: "Web Develo|";
   }
 
   36% {
-    content: "Pallob Biswa|";
+    content: "Web Develop|";
   }
 
   40% {
-    content: "Pallob Biswas|";
+    content: "Web Developer|";
   }
 
   44% {
-    content: "Pallob Biswa|";
+    content: "Web Develope|";
   }
 
   48% {
-    content: "Pallob Bisw|";
+    content: "Web Develop|";
   }
 
   52% {
-    content: "Pallob Bis|";
+    content: "Web Develo|";
   }
 
   56% {
-    content: "Pallob Bi|";
+    content: "Web Devel|";
   }
 
   60% {
-    content: "Pallob B|";
+    content: "Web Deve|";
   }
   61% {
-    content: "Pallob |";
+    content: "Web Dev|";
   }
   62% {
-    content: "Pallob|";
+    content: "Web De|";
   }
   63% {
-    content: "Pallo|";
+    content: "Web D|";
   }
 
-  66%,
-  83% {
-    content: "Pall|";
+  66% {
+    content: "Web |";
   }
 
-  84% {
-    content: "Pal|";
+  68% {
+    content: "We|";
   }
 
-  85% {
-    content: "Pa|";
+  70% {
+    content: "W|";
   }
 
-  86% {
-    content: "P|";
+  72% {
+    content: "|";
   }
 }
