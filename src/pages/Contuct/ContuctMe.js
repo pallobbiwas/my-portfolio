@@ -7,9 +7,9 @@ const ContuctMe = () => {
   const onSubmit = (data) => {
     console.log(data);
     Swal.fire({
-      icon: 'success',
-      title: 'Thank you..',
-    })
+      icon: "success",
+      title: "Thank you..",
+    });
   };
   return (
     <div id="contuct" className="container mx-auto mb-6">
@@ -19,19 +19,23 @@ const ContuctMe = () => {
       </div>
       <div>
         <div>
-          <ul>
-            <li>
+          <p>
+            <span className="mx-10">
               <a href="https://www.facebook.com/pallabbiswas.pallabbiswas.311">
                 Facebook
               </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/pallob-biswas-53a917229/">
-                Linkdin
+            </span>{" "}
+            ||{" "}
+            <span className="mx-10">
+              <a href="https://www.linkedin.com/in/partho-bepary-53a917229/">
+                Linkedin
               </a>
-            </li>
-            <li>01575026033 whatsapp number</li>
-          </ul>
+            </span>{" "}
+            ||{" "}
+            <span className="mx-10">
+              <a href="https://github.com/pallobbiwas">Github</a>
+            </span>
+          </p>
         </div>
         <div>
           <div>

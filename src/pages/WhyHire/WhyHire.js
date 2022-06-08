@@ -104,19 +104,83 @@ const WhyHire = () => {
             <hr />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div>
+            <div className="bg-gray-600 p-2 rounded-lg">
               <div className="overflow-y-auto h-96 rounded-md">
                 <img src={project1} alt="" />
               </div>
+              <div className="text-left mt-4">
+                <button className="btn btn-primary btn-sm px-4">
+                  <a href="https://assignment-12-14077.web.app/" target="blank">
+                    Live link
+                  </a>
+                </button>
+                <button className="btn btn-primary btn-sm mx-4 px-4">
+                  <a
+                    href="https://github.com/pallobbiwas/car-parts-menufacturing"
+                    target="blank"
+                  >
+                    Client site
+                  </a>
+                </button>
+                <button className="btn btn-primary btn-sm px-4">
+                  <a
+                    href="https://github.com/pallobbiwas/car-parts-menufacturing-server"
+                    target="blank"
+                  >
+                    Server site
+                  </a>
+                </button>
+              </div>
             </div>
-            <div>
+            <div className="bg-gray-600 p-2 rounded-lg">
               <div className="overflow-y-auto h-96 rounded-md">
                 <img src={project2} alt="" />
               </div>
+              <div className="text-left mt-4">
+                <button className="btn btn-primary btn-sm px-4">
+                  <a
+                    href="https://assignment-11-49b4b.web.app/home"
+                    target="blank"
+                  >
+                    Live link
+                  </a>
+                </button>
+                <button className="btn btn-primary btn-sm mx-4 px-4">
+                  <a
+                    href="https://github.com/pallobbiwas/warehous-management"
+                    target="blank"
+                  >
+                    Client site
+                  </a>
+                </button>
+                <button className="btn btn-primary btn-sm px-4">
+                  <a
+                    href="https://github.com/pallobbiwas/warehouse-management-server"
+                    target="blank"
+                  >
+                    Server site
+                  </a>
+                </button>
+              </div>
             </div>
-            <div>
+            <div className="bg-gray-600 p-2 rounded-lg">
               <div className="overflow-y-auto h-96 rounded-md">
                 <img src={project3} alt="" />
+              </div>
+              <div className="text-left mt-4">
+                <button className="btn btn-primary btn-sm px-4">
+                  <a href="https://assignment-10-2883c.web.app/" target="blank">
+                    Live link
+                  </a>
+                </button>
+                <button className="btn btn-primary btn-sm mx-4 px-4">
+                  <a
+                    href="https://github.com/pallobbiwas/Rathika-Ramasamy-portfolio"
+                    target="blank"
+                  >
+                    Client site
+                  </a>
+                </button>
               </div>
             </div>
           </div>
