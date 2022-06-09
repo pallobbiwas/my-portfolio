@@ -1,16 +1,37 @@
-import React from "react";
-import { useForm } from "react-hook-form";
+// import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import Swal from "sweetalert2";
 
 const ContuctMe = () => {
-  const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => {
-    console.log(data);
-    Swal.fire({
-      icon: "success",
-      title: "Thank you..",
-    });
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cl2as54",
+        "template_ba8h96j",
+        form.current,
+        "69Sz-CP4Hit9WY7vh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      Swal.fire({
+        icon: 'success',
+        title: 'Your message was send',
+        text: 'Thank you...!',
+      })
+      e.target.reset()
   };
+
   return (
     <div id="contuct" className="container mx-auto mb-6">
       <div className="mx-20 mb-20">
@@ -40,24 +61,28 @@ const ContuctMe = () => {
         <div>
           <div>
             <h1 className="text-3xl text-primary my-20">
-              Ask a question free / message us
+              Ask a question free / message me
             </h1>
             <div className="bg-slate-500 ml-10 rounded-lg p-3">
-              <form className=" mt-40" onSubmit={handleSubmit(onSubmit)}>
+              {/* input input-bordered w-3/4 */}
+              <form ref={form} action="" onSubmit={sendEmail}>
                 <input
-                  placeholder="enter email"
-                  type="email"
-                  className="input input-bordered w-3/4"
-                  {...register("email")}
+                  className="input input-bordered w-3/4 text-center text-black"
+                  type="text" name="user_email"
+                  placeholder="Your email"
                 />
                 <br />
                 <textarea
-                  placeholder="text area"
-                  className="p-4 my-3 rounded-sm h-20 w-3/4"
-                  {...register("message")}
-                />
+                  className="input input-bordered w-3/4 text-center text-black h-44 my-4"
+                  placeholder="Your message"
+                  name="message"
+                ></textarea>
                 <br />
-                <input className="btn btn-primary px-20" type="submit" />
+                <input
+                  className="btn btn-primary px-20"
+                  type="submit"
+                  value="Send"
+                />
               </form>
             </div>
           </div>

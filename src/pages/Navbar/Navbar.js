@@ -13,7 +13,7 @@ const Navbar = ({ children }) => {
               <div>
                 <img className="nav-img" src={logoImg} alt="" />
               </div>
-              <h1 className="text-2xl ml-3 tracking-wider">Pallob's info.</h1>
+              <h1 className="text-2xl ml-3 tracking-wider">Partho's info.</h1>
             </div>
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">

@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <div className="mt-10">
             <p>
-              Hello. I am pallob biswas. My home town is Barishal, pirojpur. Now
+              Hello. I am partho bepary. My home town is Barishal, pirojpur. Now
               i livs in dhaka, panthopath. I am MERN stack web developer. I
               complete my graduation at{" "}
               <span>computer science and engineering</span> from Dhaka

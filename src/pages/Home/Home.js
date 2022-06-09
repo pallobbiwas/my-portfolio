@@ -22,7 +22,7 @@ const Home = () => {
               />
             </div>
             <div className="md:w-3/5 md:text-left bottom-20 relative">
-              <h1 className="text-6xl">Pallob Biswas</h1>
+              <h1 className="text-6xl">Partho bepary</h1>
 
               <h2 className="text-2xl">
                 i am{" "}
