@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div id="about">
       <div className="mx-20">
-        <h1 className="text-4xl tracking-widest mb-5">About me</h1>
+        <h1 className="text-4xl tracking-widest mb-5 font-b">About me</h1>
         <hr />
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <div className="mt-10">

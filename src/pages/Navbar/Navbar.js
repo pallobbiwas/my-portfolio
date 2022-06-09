@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import logoImg from "../../assets/pallab 5PORT SIZE w.jpg";
 import "./Navbar.css";
 
 const Navbar = ({ children }) => {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   const darkMOde = () => {
     setDark(!dark);
@@ -19,10 +18,7 @@ const Navbar = ({ children }) => {
         <div className="drawer-content flex flex-col">
           <div className="w-full navbar bg-gray-600">
             <div className="flex-1 px-2 mx-2">
-              <div>
-                <img className="nav-img" src={logoImg} alt="" />
-              </div>
-              <h1 className="text-2xl ml-3 tracking-wider">Partho's info.</h1>
+              <h1 className="text-2xl ml-3 tracking-wider font-bold">Partho's info.</h1>
             </div>
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
@@ -42,7 +38,7 @@ const Navbar = ({ children }) => {
               </label>
             </div>
 
-            <div className="flex-none hidden lg:block">
+            <div className="flex-none hidden lg:block mr-10">
               <ul className="nav-menu">
                 <li className="nav-iteam">
                   <a className="nav-link" href="#home">

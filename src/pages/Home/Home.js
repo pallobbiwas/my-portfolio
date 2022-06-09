@@ -14,14 +14,17 @@ const Home = () => {
       >
         <div className="hero container mx-auto md:h-96">
           <div className="hero-content flex-col lg:flex-row">
-            <div className="md:w-2/5">
+            <div data-aos="fade-left" className="md:w-2/5">
               <img
                 className=" banner-img bottom-28 relative"
                 src={img}
                 alt="img"
               />
             </div>
-            <div className="md:w-3/5 md:text-left bottom-20 relative">
+            <div
+              data-aos="fade-left"
+              className="md:w-3/5 md:text-left bottom-20 relative"
+            >
               <h1 className="text-6xl">Partho bepary</h1>
 
               <h2 className="text-2xl">

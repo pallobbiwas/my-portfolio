@@ -35,26 +35,26 @@ const ContuctMe = () => {
   return (
     <div id="contuct" className="container mx-auto mb-6">
       <div className="mx-20 mb-20">
-        <h1 className="text-4xl tracking-widest mb-5">My social link</h1>
+        <h1 className="text-4xl tracking-widest mb-5 font-bold">My social link</h1>
         <hr />
       </div>
       <div>
         <div>
           <p>
             <span className="mx-10">
-              <a href="https://www.facebook.com/pallabbiswas.pallabbiswas.311">
+              <a className="text-yellow-300 text-3xl font-bold" href="https://www.facebook.com/pallabbiswas.pallabbiswas.311">
                 Facebook
               </a>
             </span>{" "}
             ||{" "}
             <span className="mx-10">
-              <a href="https://www.linkedin.com/in/partho-bepary-53a917229/">
+              <a  className="text-yellow-300 text-3xl font-bold" href="https://www.linkedin.com/in/partho-bepary-53a917229/">
                 Linkedin
               </a>
             </span>{" "}
             ||{" "}
             <span className="mx-10">
-              <a href="https://github.com/pallobbiwas">Github</a>
+              <a  className="text-yellow-300 text-3xl font-bold" href="https://github.com/pallobbiwas">Github</a>
             </span>
           </p>
         </div>
@@ -64,16 +64,15 @@ const ContuctMe = () => {
               Ask a question free / message me
             </h1>
             <div className="bg-slate-500 ml-10 rounded-lg p-3">
-              {/* input input-bordered w-3/4 */}
               <form ref={form} action="" onSubmit={sendEmail}>
                 <input
-                  className="input input-bordered w-3/4 text-center text-black"
+                  className="input input-bordered w-3/4 text-center text-white"
                   type="text" name="user_email"
                   placeholder="Your email"
                 />
                 <br />
                 <textarea
-                  className="input input-bordered w-3/4 text-center text-black h-44 my-4"
+                  className="input input-bordered w-3/4 text-center text-white h-44 my-4"
                   placeholder="Your message"
                   name="message"
                 ></textarea>
