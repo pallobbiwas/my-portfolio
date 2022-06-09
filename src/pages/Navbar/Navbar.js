@@ -38,7 +38,7 @@ const Navbar = ({ children }) => {
               </label>
             </div>
 
-            <div className="flex-none hidden lg:block mr-10">
+            <div className="flex-none hidden lg:block">
               <ul className="nav-menu">
                 <li className="nav-iteam">
                   <a className="nav-link" href="#home">

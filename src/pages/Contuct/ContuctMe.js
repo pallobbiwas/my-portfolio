@@ -63,7 +63,7 @@ const ContuctMe = () => {
             <h1 className="text-3xl text-primary my-20">
               Ask a question free / message me
             </h1>
-            <div className="bg-slate-500 ml-10 rounded-lg p-3">
+            <div className="bg-slate-500 rounded-lg p-3">
               <form ref={form} action="" onSubmit={sendEmail}>
                 <input
                   className="input input-bordered w-3/4 text-center text-white"

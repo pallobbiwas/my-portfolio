@@ -21,6 +21,7 @@ function App() {
           <WhyHire />
           <ContuctMe />
         </Navbar>
+        
       </div>
     </div>
   );
