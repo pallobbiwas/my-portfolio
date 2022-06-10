@@ -7,8 +7,8 @@ import project3 from "../../assets/project3.png";
 const WhyHire = () => {
   const navigated = useNavigate();
   const goDetails = () => {
-    navigated('/details1')
-  }
+    navigated("/details1");
+  };
   return (
     <div id="hire">
       <div className="container mx-auto my-20">
@@ -114,6 +114,9 @@ const WhyHire = () => {
                 <img src={project1} alt="" />
               </div>
               <div className="text-left mt-4">
+                <p className="my-4">
+                OVER VIEW: This is full stack web site. There is login system , an admin plnel and user system. More details visit blow link
+                </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a href="https://assignment-12-14077.web.app/" target="blank">
                     Live link
@@ -142,6 +145,9 @@ const WhyHire = () => {
                 <img src={project2} alt="" />
               </div>
               <div className="text-left mt-4">
+                <p className="my-4">
+                  OVER VIEW: This is full stack web site. There is login system , an admin plnel and user system. More details visit blow link
+                </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a
                     href="https://assignment-11-49b4b.web.app/home"
@@ -173,6 +179,9 @@ const WhyHire = () => {
                 <img src={project3} alt="" />
               </div>
               <div className="text-left mt-4">
+                <p className="my-4">
+                  OVER VIEW: This is a fornt end web development. There is login system , an admin plnel and user system. More details visit blow link
+                </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a href="https://assignment-10-2883c.web.app/" target="blank">
                     Live link
