@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Navbar.css";
 
 const Navbar = ({ children }) => {
@@ -18,7 +18,9 @@ const Navbar = ({ children }) => {
         <div className="drawer-content flex flex-col">
           <div className="w-full navbar bg-gray-600">
             <div className="flex-1 px-2 mx-2">
-              <h1 className="text-2xl ml-3 tracking-wider font-bold">Partho's info.</h1>
+              <h1 className="text-2xl ml-3 tracking-wider font-bold">
+                Partho's info.
+              </h1>
             </div>
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
@@ -53,6 +55,11 @@ const Navbar = ({ children }) => {
                 <li className="nav-iteam">
                   <a className="nav-link" href="#contuct">
                     Contuct
+                  </a>
+                </li>
+                <li className="nav-iteam">
+                  <a className="nav-link" href="#blog">
+                    Blogs
                   </a>
                 </li>
                 <label class="swap swap-rotate">

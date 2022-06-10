@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router";
 import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png";
@@ -78,25 +77,46 @@ const WhyHire = () => {
         <h1 className="text-4xl text-primary font-bold mb-8">My skill</h1>
         <div>
           <ul class="steps steps-vertical lg:steps-horizontal">
-            <li data-content="✓" class="step step-primary px-10">
-              Html5
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl px-10"
+            >
+              Html 5
             </li>
-            <li data-content="✓" class="step step-primary">
-              Css3
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
+              Css 3
             </li>
-            <li data-content="✓" class="step step-primary">
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
               Java script
             </li>
-            <li data-content="✓" class="step step-primary">
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
               React.js
             </li>
-            <li data-content="✓" class="step step-primary">
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
               Node.js
             </li>
-            <li data-content="✓" class="step step-primary">
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
               Express.js
             </li>
-            <li data-content="✓" class="step step-primary">
+            <li
+              data-content="✓"
+              class="step step-primary font-bold text-white text-3xl"
+            >
               Mongodb
             </li>
           </ul>
@@ -115,7 +135,8 @@ const WhyHire = () => {
               </div>
               <div className="text-left mt-4">
                 <p className="my-4">
-                OVER VIEW: This is full stack web site. There is login system , an admin plnel and user system. More details visit blow link
+                  OVER VIEW: This is full stack web site. There is login system
+                  , an admin plnel and user system. More details visit blow link
                 </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a href="https://assignment-12-14077.web.app/" target="blank">
@@ -146,7 +167,8 @@ const WhyHire = () => {
               </div>
               <div className="text-left mt-4">
                 <p className="my-4">
-                  OVER VIEW: This is full stack web site. There is login system , an admin plnel and user system. More details visit blow link
+                  OVER VIEW: This is full stack web site. There is login system
+                  , an admin plnel and user system. More details visit blow link
                 </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a
@@ -180,7 +202,9 @@ const WhyHire = () => {
               </div>
               <div className="text-left mt-4">
                 <p className="my-4">
-                  OVER VIEW: This is a fornt end web development. There is login system , an admin plnel and user system. More details visit blow link
+                  OVER VIEW: This is a fornt end web development. There is login
+                  system , an admin plnel and user system. More details visit
+                  blow link
                 </p>
                 <button className="btn btn-primary btn-sm px-4">
                   <a href="https://assignment-10-2883c.web.app/" target="blank">
@@ -199,6 +223,12 @@ const WhyHire = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        id="blog"
+        className="container mx-auto my-4 rounded-lg h-52 bg-slate-700 flex justify-center items-center"
+      >
+        <p className="text-center"> Comming soon ......</p>
       </div>
     </div>
   );
