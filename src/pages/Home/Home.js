@@ -1,4 +1,3 @@
-import React from "react";
 import img from "../../assets/pallob .png";
 import pdf from "../../assets/partho cv.pdf";
 import "./Home.css";
@@ -6,15 +5,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div id="home" className="mt-32">
-      <div
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-        className="bg-gray-700 mt-32 mb-20"
-      >
+      <div className="bg-gray-700 mt-32 mb-20">
         <div className="hero container mx-auto md:h-96">
           <div className="hero-content flex-col lg:flex-row">
-            <div className="hidden md:block" data-aos="fade-left">
+            <div className="hidden md:block">
               <img
                 className=" banner-img bottom-28 relative"
                 src={img}
