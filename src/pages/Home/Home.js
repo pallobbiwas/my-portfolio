@@ -22,8 +22,7 @@ const Home = () => {
               />
             </div>
             <div
-              data-aos="fade-left"
-              className="md:w-3/5 md:text-left bottom-20 relative"
+              className="md:w-3/5 md:text-left bottom-20 relative ml-20"
             >
               <h1 className="text-3xl md:text-6xl">Partho bepary</h1>
 

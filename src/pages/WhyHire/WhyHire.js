@@ -1,9 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router";
 import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png";
 import project3 from "../../assets/project3.png";
 
 const WhyHire = () => {
+  const navigated = useNavigate();
+  const goDetails = () => {
+    navigated('/details1')
+  }
   return (
     <div id="hire">
       <div className="container mx-auto my-20">
