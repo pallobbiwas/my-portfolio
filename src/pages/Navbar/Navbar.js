@@ -11,6 +11,7 @@ const Navbar = ({ children }) => {
 
   const changeTheme = JSON.parse(localStorage.getItem("theme"));
 
+
   return (
     <div className="" data-theme={changeTheme ? "dark" : "light"}>
       <div className="drawer drawer-end ">

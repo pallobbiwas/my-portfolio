@@ -20,7 +20,7 @@ const Home = () => {
               <h1 className="text-3xl md:text-6xl">Partho bepary</h1>
 
               <Typical
-                className="text-3xl"
+                className="text-3xl text-white"
                 steps={[
                   "I am Web Developer...",
                   500,
