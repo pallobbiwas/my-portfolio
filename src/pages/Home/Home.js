@@ -1,3 +1,4 @@
+import Typical from "react-typical";
 import img from "../../assets/pallob .png";
 import pdf from "../../assets/partho cv.pdf";
 import "./Home.css";
@@ -15,15 +16,20 @@ const Home = () => {
                 alt="img"
               />
             </div>
-            <div
-              className="md:w-3/5 md:text-left bottom-20 relative ml-20"
-            >
+            <div className="md:w-3/5 md:text-left bottom-20 relative ml-20">
               <h1 className="text-3xl md:text-6xl">Partho bepary</h1>
 
-              <h2 className="text-2xl text-left">
-                i am{" "}
-                <span className="title ml-2" data-text=" Web Developer"></span>
-              </h2>
+              <Typical
+                className="text-3xl"
+                steps={[
+                  "I am Web Developer...",
+                  500,
+                  "I am React Developer...",
+                  1000,
+                ]}
+                loop={Infinity}
+                wrapper="p"
+              />
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
